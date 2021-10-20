@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainContentsWrapper {
+  width: 96vw;
+  height: 95vh;
+  background-color: #d8dfd8;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 95vw;
+  height: 5vw;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
+  color: #525951;
+  font-size: 2vw;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 2vw;
+  cursor: pointer;
+}
+.headerNavigator {
+  display: flex;
+  width: 25vw;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-right: 2vw;
+  color: #525951;
+  font-size: 1vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.15vw;
+}
+.headerButton {
+  padding-top: 0.8vw;
+  cursor: pointer;
+}
+.headerButtonLine {
+  border: 2px solid #525951;
+  padding-top: 0.7vw;
+  padding-bottom: 0.5vw;
+  padding-right: 1.2vw; 
+  padding-left: 1.2vw;
+  cursor: pointer;
+}
+.mainTitleWrapper {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color: #525951;
 }
-
-.App-link {
-  color: #61dafb;
+.mainTitle {
+  font-size: 5.5vw;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 0.25vw;
+  margin-bottom: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subTitle {
+  font-size: 1.5vw;
+  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 0.18vw;
+}
+.smallLine {
+  width: 5vw;
+  height: 0.1vw;
+  border-color: #525951;
+  background-color: #525951;
+  margin-bottom: 0;
+}
+.imageWrapper {
+  overflow: hidden;
+  width: 96vw;
+  height: 23vw;
+}
+.plantIcon1 {
+  /* position: absolute; */
+  height: 45vw;
+  transform: rotateZ(130deg);
+  left: 5vw;
+  top: 15vw;
+  margin-bottom: 10vw;
+}
+.plantIcon2 {
+  height: 38vw;
+  transform: rotateZ(290deg);
+  margin-left: 4vw;
+  margin-bottom: 10vw;
 }
