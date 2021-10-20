@@ -1,0 +1,141 @@
+.mainContainer4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 65vh;
+    background-color: #dfe4de;
+}
+.subscribeHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 10vw;
+}
+.subscribeHeaderText {
+    font-size: 2.4vw;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.18vw;
+    color: #525951;
+}
+.subscribeSubText {
+    font-size: 1.8vw;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.18vw;
+    color: #525951;
+    margin-top: 0.5vw;
+}
+.subscribeBox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.subscribeInputBox {
+    width: 38vw;
+    height: 5vw;
+    outline: none;
+    border: 2px solid #ffffff;
+    background-color: #eff1ee;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2vw;
+    color: #525951;
+}
+.subscribeSubmitButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    height: 4vw;
+    border: 2px solid #525951;
+    margin-top: 3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw;
+    color: #525951;
+    letter-spacing: 0.25vw;
+    cursor: pointer;
+}
+.subscribeSubmitButton:hover {
+    opacity: 0.8;
+    transition: all 0.15s;
+    background-color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+    .subscribeHeader {
+        height: 15vw;
+    }
+    .subscribeHeaderText {
+        font-size: 4vw;
+    }
+    .subscribeSubText {
+        font-size: 2.6vw;
+    }
+    .subscribeInputBox {
+        width: 43vw;
+        height: 7vw;
+        font-size: 2.3vw;
+    }
+    .subscribeSubmitButton {
+        width: 17vw;
+        height: 5vw;
+        font-size: 1.9vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .subscribeHeader {
+        height: 27vw;
+    }
+    .subscribeHeaderText {
+        font-size: 5vw;
+    }
+    .subscribeSubText {
+        font-size: 3vw;
+    }
+    .subscribeInputBox {
+        width: 48vw;
+        height: 8vw;
+        font-size: 2.6vw;
+    }
+    .subscribeSubmitButton {
+        width: 20vw;
+        height: 6vw;
+        font-size: 2.4vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .subscribeHeader {
+        height: 55vw;
+    }
+    .subscribeHeaderText {
+        font-size: 11vw;
+    }
+    .subscribeSubText {
+        font-size: 8vw;
+    }
+    .subscribeBox {
+        justify-content: flex-start;
+    }
+    .subscribeInputBox {
+        width: 90vw;
+        height: 15vw;
+        font-size: 6vw;
+        margin-top: 5vw;
+    }
+    .subscribeSubmitButton {
+        width: 94vw;
+        height: 15vw;
+        font-size: 5vw;
+        font-weight: 600;
+        letter-spacing: 1vw;
+    }
+}

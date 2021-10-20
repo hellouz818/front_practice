@@ -1,4 +1,4 @@
-.mainContainer {
+/* .mainContainer1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,7 +84,6 @@
   height: 23vw;
 }
 .plantIcon1 {
-  /* position: absolute; */
   height: 45vw;
   transform: rotateZ(130deg);
   left: 5vw;
@@ -97,3 +96,4 @@
   margin-left: 4vw;
   margin-bottom: 10vw;
 }
+ */

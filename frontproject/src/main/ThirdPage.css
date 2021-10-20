@@ -1,0 +1,96 @@
+.mainContainer3 {
+    display: flex;
+    width: 100%;
+    min-height: 80vh;
+    background-color: #ffffff;
+}
+.backgroundImage {
+    height: 80vh;
+    width: 50%;
+    object-fit: cover;
+}
+.main3ContentsContainer {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: #ffffff;
+}
+.main3ContentsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.main3Title {
+    font-size: 2.4vw;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.18vw;
+    color: #525951;
+    text-align: center;
+}
+.main3Line {
+    width: 3vw;
+    height: 0.1vw;
+    border-color: #525951;
+    background-color: #525951;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+.main3Contents {
+    font-size: 1vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.18vw;
+    color: #525951;
+    text-align: justify;
+    line-height: 2vw;
+}
+
+@media (max-width: 700px) {
+    .mainContainer3 {
+        flex-direction: column;
+    }
+    .backgroundImage {
+        height: 40vh;
+        width: 100%;
+    }
+    .main3ContentsContainer {
+        width: 100%;
+        min-height: 60vh;
+    }
+    .main3ContentsWrapper {
+        min-height: 60vh;
+    }
+    .main3Title {
+        font-size: 5vw;
+        letter-spacing: 0.18vw;
+    }
+    .main3Line {
+        width: 5vw;
+    }
+    .main3Contents {
+        font-size: 2vw;
+        line-height: 4vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .main3ContentsWrapper {
+        width: 90%;
+    }
+    .main3Title {
+        font-size: 8vw;
+    }
+    .main3Line {
+        width: 9vw;
+        height: 0.3vw;
+        margin-top: 4vw;
+        margin-bottom: 6vw;
+    }
+    .main3Contents {
+        font-size: 5vw;
+        line-height: 6.5vw;
+    }
+}

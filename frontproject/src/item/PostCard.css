@@ -1,0 +1,77 @@
+.postCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22vw;
+    height: 28vw;
+    background-color: #ffffff;
+    padding-top: 1vw;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
+    cursor: pointer;
+}
+.postCard:hover {
+    opacity: 0.8;
+    transition: all 0.15s;
+}
+.postCardImage {
+    width: 20vw;
+    height: 15vw;
+    object-fit: cover;
+}
+.postCardContentsWrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #525951;
+    font-size: 1.4vw;
+    text-align: center;
+}
+.postCardLine {
+    width: 2.5vw;
+    height: 0.02vw;
+    border-color: #525951;
+    background-color: #525951;
+}
+
+@media (max-width: 1024px) {
+    .postCard {
+        width: 28vw;
+        height: 36vw;
+        padding-top: 1vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .postCardImage {
+        width: 26vw;
+        height: 20vw;
+    }
+    .postCardContentsWrapper {
+        width: 23vw;
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .postCard {
+        width: 90vw;
+        height: 60vh;
+        padding-top: 1vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .postCardImage {
+        width: 88vw;
+        height: 30vh;
+    }
+    .postCardContentsWrapper {
+        width: 85vw;
+        font-size: 8vw;
+    }
+    .postCardLine {
+        width: 15vw;
+        height: 0.02vw;
+    }
+}

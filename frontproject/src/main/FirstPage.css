@@ -1,0 +1,225 @@
+.mainContainer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+.beigeContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 97vw;
+    height: 95vh;
+    background-color: #d8dfd8;
+}
+.mainHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 97vw;
+    height: 8vw;
+}
+.logo {
+    color: #525951;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    margin-left: 2vw;
+}
+.headerButtonWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+    color: #525951;
+    letter-spacing: 0.15vw;
+    margin-right: 2vw;
+}
+.headerButton {
+    margin-left: 1.3vw;
+    margin-right: 1.3vw;
+    cursor: pointer;
+}
+.headerButton:hover {
+    border-bottom: 2px solid #525951;
+    padding-bottom: 0.1vw;
+}
+.headerLineButton {
+    border: 2px solid #525951;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    margin-left: 1vw;
+    cursor: pointer;
+}
+.headerLineButton:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.mainTitleWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 35vw;
+    height: 20vw;
+    margin: auto;
+    color: #525951;
+}
+.mainTitle {
+    font-size: 5.5vw;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.25vw;
+}
+.subTitle {
+    font-size: 1.5vw;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.18vw;
+    margin-top: 0.8vw;
+}
+.smallLine {
+    width: 5vw;
+    height: 0.1vw;
+    border-color: #525951;
+    background-color: #525951;
+    margin-top: 1vw;
+}
+.leafImageWrapper {
+    width: 100%;
+    height: 23vw;
+    overflow: hidden;
+}
+.leafImage1 {
+    height: 45vw;
+    transform: rotateZ(130deg);
+    margin-top: -2vw;
+}
+.leafImage2 {
+    height: 38vw;
+    transform: rotateZ(290deg);
+}
+
+@media (max-width: 1024px) {
+    .beigeContainer {
+        width: 95vw;
+        height: 95vh;
+        background-color: #d8dfd8;
+    }
+    .mainHeader {
+        width: 95vw;
+        height: 9vw;
+    }
+    .logo {
+        font-size: 4vw;
+        font-weight: 700;
+    }
+    .leafImageWrapper {
+        height: 30vw;
+    }
+    .leafImage1 {
+        height: 53vw;
+    }
+    .leafImage2 {
+        height: 45vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .beigeContainer {
+        width: 95vw;
+        height: 95vh;
+        background-color: #d8dfd8;
+    }
+    .mainHeader {
+        width: 95vw;
+        height: 9vw;
+    }
+    .logo {
+        display: none;
+    }
+    .headerButtonWrapper {
+        display: none;
+    }
+    .mainTitleWrapper {
+        width: 55vw;
+        height: 40vw;
+    }
+    .mainTitle {
+        font-size: 10vw;
+    }
+    .subTitle {
+        font-size: 3vw;
+        font-weight: 400;
+        letter-spacing: 0.18vw;
+        margin-top: 0.8vw;
+    }
+    .smallLine {
+        width: 6vw;
+        height: 0.3vw;
+        margin-top: 2vw;
+    }
+    .leafImageWrapper {
+        height: 40vw;
+    }
+    .leafImage1 {
+        height: 60vw;
+    }
+    .leafImage2 {
+        height: 55vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .beigeContainer {
+        width: 93vw;
+        height: 95vh;
+        background-color: #d8dfd8;
+    }
+    .mainHeader {
+        width: 93vw;
+        height: 10vw;
+    }
+    .logo {
+        display: none;
+    }
+    .mainTitleWrapper {
+        width: 60vw;
+        height: 45vw;
+    }
+    .mainTitle {
+        font-size: 11vw;
+        font-weight: 600;
+        letter-spacing: 0.25vw;
+    }
+    .subTitle {
+        font-size: 5vw;
+        font-weight: 400;
+        margin-top: 2vw;
+    }
+    .smallLine {
+        width: 7vw;
+        height: 0.6vw;
+        margin-top: 3vw;
+    }
+    .leafImageWrapper {
+        height: 70vw;
+    }
+    .leafImage1 {
+        height: 60vw;
+    }
+    .leafImage2 {
+        height: 55vw;
+    }
+}

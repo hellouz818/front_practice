@@ -1,0 +1,91 @@
+.footerPage {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30vh;
+    background-color: #ffffff;
+}
+.snsButtonWrapper {
+    display: flex;
+    flex-direction: row;
+    width: 15vw;
+    justify-content: space-between;
+    margin-left: 3vw;
+}
+.snsButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 1.5vw;
+    background-color: #525951;
+    cursor: pointer;
+}
+.snsIcon {
+    width: 1.5vw;
+}
+.footerNavigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+    color: #525951;
+    letter-spacing: 0.15vw;
+    margin-right: 2vw;
+}
+
+@media (max-width: 700px) {
+    .footerPage {
+        flex-direction: column;
+        justify-content: center;
+        height: 50vh;
+    }
+    .snsButtonWrapper {
+        margin-left: 0;
+        width: 28vw;
+    }
+    .snsButton {
+        width: 5vw;
+        height: 5vw;
+        border-radius: 2.5vw;
+    }
+    .snsIcon {
+        width: 2.5vw;
+    }
+    .footerNavigation {
+        margin-right: 0;
+        height: 15vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        font-size: 2.5vw;
+        letter-spacing: 1vw;
+        margin-bottom: 5vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .footerPage {
+        height: 30vh;
+    }
+    .snsButtonWrapper {
+        width: 50vw;
+    }
+    .snsButton {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw;
+    }
+    .snsIcon {
+        width: 5vw;
+    }
+    .footerNavigation {
+        height: 25vw;
+        font-size: 5vw;
+        margin-bottom: 8vw;
+    }
+}
