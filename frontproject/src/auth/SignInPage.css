@@ -1,0 +1,122 @@
+.signInBox {
+    padding: 24px;
+    margin: auto;
+    width: 360px!important;
+    height: 440px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    z-index: 10;
+}
+.closedButton {
+    position: relative;
+    left: 340px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.welcomeBox {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.signInBar {
+    position: relative;
+    display: inline;
+    font-size: 30px;
+    font-weight: 700;
+    color: #525951;
+    left: -27px;
+}
+.signInWelcome {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #525951;
+    text-align: center;
+    margin-top: 6px;
+}
+.signInInputBox {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.signInInput {
+    margin-top: 15px;
+    width: 90%;
+    height: 48px;
+    outline: none;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #525951;
+}
+.signInInput::placeholder {
+    color: #d3d3d3;
+}
+.signInButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    width: 98%;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #525951;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.snsIconHr {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #dee2e6;
+    border-top: 0;
+}
+.snsIconWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.naverWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #1ec800;
+    cursor: pointer;
+}
+.signInNaverIcon {
+    width: 35px;
+    height: 35px;
+}
+.signInNaverText {
+    flex: 1;
+    color: #ffffff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.signUpBox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.signUpText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #d3d3d3;
+    margin-right: 12px;
+}
+.signUpButton {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: #525951;
+    font-weight: 600;
+    cursor: pointer;
+}

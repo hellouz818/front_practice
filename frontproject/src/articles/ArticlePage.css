@@ -1,0 +1,109 @@
+.articleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.articleNav {
+    position: fixed;
+    width: 180px;
+    height: 120px;
+    border-top: 2px solid #525951;
+    top: 200px;
+    left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.articleNavBox {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.articleNavIcon {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.articleNavText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #525951;
+    margin-right: 10px;
+}
+.articleWrapper {
+    width: 50%;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+.articleTitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4vw;
+    color: #525951;
+}
+.writerInfoBox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.writerNameNdate {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.writerNameNdateText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+}
+.articlePhoto {
+    width: 100%;
+    height: 30vw;
+    object-fit: contain;
+    margin-bottom: 3vw;
+}
+.articleContentsText {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    color: #525951;
+    line-height: 2.5vw;
+    letter-spacing: 0.12vw;
+}
+
+@media (max-width: 1024px) {
+    .articleNav {
+        display: none;
+    }
+    .articleWrapper {
+        width: 90%;
+    }
+    .articleTitle {
+        font-size: 7vw;
+    }
+    .writerInfoBox {
+        margin-top: 3vw;
+        margin-bottom: 5vw;
+    }
+    .writerNameNdateText {
+        font-size: 2vw;
+    }
+    .articlePhoto {
+        height: 40vw;
+        margin-bottom: 3vw;
+    }
+    .articleContentsText {
+        font-size: 3vw;
+        line-height: 5vw;
+        letter-spacing: 0.12vw;
+    }
+}

@@ -3,16 +3,15 @@ import FirstPage from './FirstPage'
 import SecondPage from './SecondPage'
 import ThirdPage from './ThirdPage'
 import FourthPage from './FourthPage'
-import Footer from './Footer'
+import './FirstPage.css'
 
 function MainPage() {
-    return (
-        <>
+    return (     
+        <>       
             <FirstPage />
             <SecondPage />
             <ThirdPage />
             <FourthPage />
-            <Footer />
         </>
     )
 }
